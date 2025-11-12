@@ -1,0 +1,15 @@
+fetch("http://127.0.0.1:8000/usuarios/5", {
+  method: "DELETE",
+  headers: {
+    "Authorization": "Bearer " + token
+  }
+})
+
+
+
+Authorization: Bearer <seu_token_aqui>
+
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyIiwiZXhwIjoxNzYyMDA2ODk0fQ.OjeqMH-7anPm8dJlxaCYLtkG5hpEpt_gXuEYkY1GfMg",
+  "token_type": "bearer"
+}
